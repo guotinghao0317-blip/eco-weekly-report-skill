@@ -1,0 +1,8 @@
+{
+  "sop_url": "https://example.feishu.cn/wiki/填写你有权访问的SOP链接",
+  "full_report_url": "https://example.feishu.cn/docx/填写完整版周报链接",
+  "group_report_url": "https://example.feishu.cn/wiki/填写组周报链接",
+  "data_chat_name": "填写生态数据群名称",
+  "bi_agent_name": "填写取数机器人名称",
+  "timezone": "Asia/Shanghai"
+}

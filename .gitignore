@@ -1,0 +1,14 @@
+__pycache__/
+.venv/
+output/
+weekly-input.json
+workspace-config.json
+metrics.json
+*.log
+*.csv
+*.png
+*.xml
+.env*
+data/
+.DS_Store
+*.zip

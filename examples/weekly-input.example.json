@@ -1,0 +1,272 @@
+{
+  "demo_only": true,
+  "periods": {
+    "previous": {
+      "start": "2026-01-01",
+      "end": "2026-01-07"
+    },
+    "current": {
+      "start": "2026-01-08",
+      "end": "2026-01-14"
+    }
+  },
+  "scope": {
+    "official_delivery": true,
+    "cdu_versions_with_rows": [
+      "6.3.0"
+    ]
+  },
+  "sources": {
+    "north_star": "虚构演示看板；无真实飞书来源",
+    "app_detail": "虚构演示 BI 数据；不可用于正式周报",
+    "poweron": "虚构演示车辆数据；不可用于正式周报"
+  },
+  "coverage": {
+    "previous": [
+      "2026-01-01",
+      "2026-01-02",
+      "2026-01-03",
+      "2026-01-04",
+      "2026-01-05",
+      "2026-01-06",
+      "2026-01-07"
+    ],
+    "current": [
+      "2026-01-08",
+      "2026-01-09",
+      "2026-01-10",
+      "2026-01-11",
+      "2026-01-12",
+      "2026-01-13",
+      "2026-01-14"
+    ]
+  },
+  "north_star_pct": {
+    "overall": {
+      "previous": 87.5,
+      "current": 88.1
+    },
+    "audio": {
+      "previous": 86.2,
+      "current": 86.9
+    },
+    "video": {
+      "previous": 82.4,
+      "current": 84.1
+    }
+  },
+  "mean_daily_uv": {
+    "poweron": {
+      "previous": 100000,
+      "current": 104000
+    },
+    "audio_total": {
+      "previous": 70000,
+      "current": 73000
+    },
+    "video_total": {
+      "previous": 12000,
+      "current": 13500
+    },
+    "native_audio": {
+      "previous": 60340,
+      "current": 63437
+    },
+    "store_video": {
+      "previous": 9888,
+      "current": 11354
+    }
+  },
+  "audio_sources": [
+    {
+      "group": "原生音乐",
+      "name": "音乐 A",
+      "previous": 27000,
+      "current": 28300
+    },
+    {
+      "group": "原生音乐",
+      "name": "音乐 B",
+      "previous": 25000,
+      "current": 26100
+    },
+    {
+      "group": "原生音乐",
+      "name": "音乐 C",
+      "previous": 12000,
+      "current": 12600
+    },
+    {
+      "group": "非原生音乐",
+      "name": "蓝牙",
+      "previous": 10000,
+      "current": 10800
+    },
+    {
+      "group": "非原生音乐",
+      "name": "商店音乐",
+      "previous": 3500,
+      "current": 3800
+    },
+    {
+      "group": "非原生音频",
+      "name": "商店音频",
+      "previous": 1500,
+      "current": 1650
+    }
+  ],
+  "video_apps": [
+    {
+      "group": "商店视频",
+      "name": "视频 A",
+      "previous": 5000,
+      "current": 5650
+    },
+    {
+      "group": "商店视频",
+      "name": "视频 B",
+      "previous": 4200,
+      "current": 4800
+    },
+    {
+      "group": "X-Pad 视频",
+      "name": "短视频 A",
+      "previous": 800,
+      "current": 870
+    },
+    {
+      "group": "浏览器视频",
+      "name": "网站 A",
+      "previous": 350,
+      "current": 405
+    }
+  ],
+  "xpad_top10": [
+    {
+      "name": "演示应用 1",
+      "previous": 1203.0,
+      "current": 1304.0,
+      "previous_rank": 1
+    },
+    {
+      "name": "演示应用 2",
+      "previous": 603.0,
+      "current": 654.0,
+      "previous_rank": 2
+    },
+    {
+      "name": "演示应用 3",
+      "previous": 403.0,
+      "current": 437.3,
+      "previous_rank": 3
+    },
+    {
+      "name": "演示应用 4",
+      "previous": 303.0,
+      "current": 329.0,
+      "previous_rank": 4
+    },
+    {
+      "name": "演示应用 5",
+      "previous": 243.0,
+      "current": 264.0,
+      "previous_rank": 5
+    },
+    {
+      "name": "演示应用 6",
+      "previous": 203.0,
+      "current": 220.7,
+      "previous_rank": 6
+    },
+    {
+      "name": "演示应用 7",
+      "previous": 174.4,
+      "current": 189.7,
+      "previous_rank": 7
+    },
+    {
+      "name": "演示应用 8",
+      "previous": 153.0,
+      "current": 166.5,
+      "previous_rank": 8
+    },
+    {
+      "name": "演示应用 9",
+      "previous": 136.3,
+      "current": 148.4,
+      "previous_rank": 9
+    },
+    {
+      "name": "演示应用 10",
+      "previous": 123.0,
+      "current": 134.0,
+      "previous_rank": 10
+    }
+  ],
+  "browser_top10": [
+    {
+      "name": "example1.test",
+      "previous": 602.0,
+      "current": 693.0,
+      "previous_rank": 1
+    },
+    {
+      "name": "example2.test",
+      "previous": 302.0,
+      "current": 348.0,
+      "previous_rank": 2
+    },
+    {
+      "name": "example3.test",
+      "previous": 202.0,
+      "current": 233.0,
+      "previous_rank": 3
+    },
+    {
+      "name": "example4.test",
+      "previous": 152.0,
+      "current": 175.5,
+      "previous_rank": 4
+    },
+    {
+      "name": "example5.test",
+      "previous": 122.0,
+      "current": 141.0,
+      "previous_rank": 5
+    },
+    {
+      "name": "example6.test",
+      "previous": 102.0,
+      "current": 118.0,
+      "previous_rank": 6
+    },
+    {
+      "name": "example7.test",
+      "previous": 87.7,
+      "current": 101.6,
+      "previous_rank": 7
+    },
+    {
+      "name": "example8.test",
+      "previous": 77.0,
+      "current": 89.2,
+      "previous_rank": 8
+    },
+    {
+      "name": "example9.test",
+      "previous": 68.7,
+      "current": 79.7,
+      "previous_rank": 9
+    },
+    {
+      "name": "example10.test",
+      "previous": 62.0,
+      "current": 72.0,
+      "previous_rank": 10
+    }
+  ],
+  "notes": [
+    "全部为虚构演示数据。",
+    "来源、过滤和榜单排除需在真实周报中核实。"
+  ]
+}
