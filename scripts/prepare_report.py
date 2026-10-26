@@ -146,7 +146,7 @@ def compute(data: dict) -> dict:
     result["formulas"] = {
         "north_star": "看板每日占比的 7 天算术平均；输入值为已核实周值",
         "breakdown_share": "应用周日均去重 UV / 业务总盘周日均去重 UV",
-        "vehicle_penetration": "应用周日均去重 UV / 上电车辆周日均去重 UV",
+        "vehicle_penetration": "音频/视频业务总盘或单应用周日均去重 UV / 同期上电车辆周日均去重 UV；组周报使用业务总盘值",
     }
     result["mean_daily_uv"] = uv
     result["summary"] = {}
